@@ -1,0 +1,30 @@
+:root {
+  --main-font-color: rgb (204, 204, 204);
+  --main-page-max-width: 1200px;
+  --main-input-color: rgb (136, 84, 208);
+  --hover-input-color: rgb (164, 124, 219);
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*,
+*::after *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--main-font-color);
+  background-color: black;
+  text-rendering: optimizeLegibility;
+}
+
+.container img {
+  height: 200px;
+  margin: 0.5rem 0;
+}
